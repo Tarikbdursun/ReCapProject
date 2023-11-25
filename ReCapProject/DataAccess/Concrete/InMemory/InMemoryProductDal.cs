@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.InMemory
 {
-    public class InMemoryProductDal : ICarDal
+    public class InMemoryProductDal //: IProductDal
     {
         private List<Car> _carList;
 
@@ -15,10 +15,10 @@ namespace DataAccess.Concrete.InMemory
         {
             _carList = new List<Car>
             {
-                new Car{ID=1, BrandID=1, ColorID=1,ModelYear=1957,DailyPrice=10,Description="Garajın 1 numaralı arabası" },
-                new Car{ID=2, BrandID=2, ColorID=2,ModelYear=1985,DailyPrice=20,Description="Garajın 2 numaralı arabası" },
-                new Car{ID=3, BrandID=3, ColorID=3,ModelYear=1995,DailyPrice=25,Description="Garajın 3 numaralı arabası" },
-                new Car{ID=4, BrandID=4, ColorID=4,ModelYear=2008,DailyPrice=30,Description="Garajın 4 numaralı arabası" },
+                new Car{ID=1, ModelId=1, ColorID=1,ModelYear=1957,DailyPrice=10,Description="Garajın 1 numaralı arabası" },
+                new Car{ID=2, ModelId=2, ColorID=2,ModelYear=1985,DailyPrice=20,Description="Garajın 2 numaralı arabası" },
+                new Car{ID=3, ModelId=3, ColorID=3,ModelYear=1995,DailyPrice=25,Description="Garajın 3 numaralı arabası" },
+                new Car{ID=4, ModelId=4, ColorID=4,ModelYear=2008,DailyPrice=30,Description="Garajın 4 numaralı arabası" },
                 
             };
         }
@@ -48,7 +48,7 @@ namespace DataAccess.Concrete.InMemory
         {
             Car carToUpdated = _carList.SingleOrDefault(x => x.ID == car.ID);
 
-            carToUpdated.BrandID = car.BrandID;
+            carToUpdated.ModelId = car.ModelId;
             carToUpdated.ColorID = car.ColorID;
             carToUpdated.DailyPrice = car.DailyPrice;
             carToUpdated.Description = car.Description;
