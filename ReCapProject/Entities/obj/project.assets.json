@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+      "projectUniqueName": "D:\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+      "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Tarık Buğra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Entities\\obj\\",
+      "outputPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tarık Buğra\\AppData\\Roaming\\NuGet\\NuGet.Config",

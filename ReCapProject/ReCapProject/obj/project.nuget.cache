@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r5LDgNZg962iAFShTlPrR796XE4J80boiGMlveF/ZkoQFvfgoVSK1wMgjJMydeeTEOydk+HPfWZBiZ0bqAPn7A==",
+  "dgSpecHash": "PngsHRvLU6Y07DmXKzEQJxMddto5vsn4jsn7MKfCMdVXPtv/4vnaxTUx49sVjP45wM6SkfN5Nb/znRytEd3Qfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
+  "projectFilePath": "D:\\GitHub\\ReCapProject\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

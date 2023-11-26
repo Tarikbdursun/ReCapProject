@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
+      "projectUniqueName": "D:\\GitHub\\ReCapProject\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
       "projectName": "ReCapProject",
-      "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
+      "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
       "packagesPath": "C:\\Users\\Tarık Buğra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\ReCapProject\\obj\\",
+      "outputPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\ReCapProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tarık Buğra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,7 +235,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

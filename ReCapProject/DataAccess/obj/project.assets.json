@@ -3115,11 +3115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Tarık Buğra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\DataAccess\\obj\\",
+      "outputPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tarık Buğra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3136,8 +3136,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+            "D:\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }

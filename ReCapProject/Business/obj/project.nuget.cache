@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a/rhwMwB6SQBbAdDTMA/XuUuXrSJhszE1fQdKNFaMI4PFNa0yYCaTzJh/wjBO46SZWSRtsKYPCBEVHzT3R4FTw==",
+  "dgSpecHash": "hk9DXipRge5A4grIAd20tW2mLGp0lXE0coPwUCblvZuJXALuIqs2Xu5JKp5K0kIJHlgp9Qr+o5U6rkFQGzSnTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+  "projectFilePath": "D:\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.11\\microsoft.entityframeworkcore.2.1.11.nupkg.sha512",
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.1.11\\microsoft.entityframeworkcore.abstractions.2.1.11.nupkg.sha512",

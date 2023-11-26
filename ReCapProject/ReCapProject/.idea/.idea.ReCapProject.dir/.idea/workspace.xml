@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="161d1f40-b7ce-4c17-bc2c-a236e0628adf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Business/obj/Business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Business/obj/Business.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Business/obj/Debug/netstandard2.0/Business.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Business/obj/Debug/netstandard2.0/Business.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Business/obj/Debug/netstandard2.0/Business.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Business/obj/Debug/netstandard2.0/Business.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Business/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Business/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccess/obj/Debug/netstandard2.0/DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccess/obj/Debug/netstandard2.0/DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccess/obj/Debug/netstandard2.0/DataAccess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccess/obj/Debug/netstandard2.0/DataAccess.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DataAccess/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Entities/obj/Debug/netstandard2.0/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Entities/obj/Debug/netstandard2.0/Entities.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Entities/obj/Debug/netstandard2.0/Entities.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Entities/obj/Debug/netstandard2.0/Entities.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Entities/obj/Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Entities/obj/Entities.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Entities/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Entities/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LayerUI/obj/Debug/net5.0/LayerUI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LayerUI/obj/Debug/net5.0/LayerUI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LayerUI/obj/Debug/net5.0/LayerUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LayerUI/obj/Debug/net5.0/LayerUI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LayerUI/obj/LayerUI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LayerUI/obj/LayerUI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LayerUI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LayerUI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LayerUI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LayerUI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/ReCapProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/ReCapProject.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ReCapProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ReCapProject.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ReCapProject.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ReCapProject.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ReCapProject.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ReCapProject.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2YfV4KYujWcO830nuqQkDj4oT7M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="161d1f40-b7ce-4c17-bc2c-a236e0628adf" name="Changes" comment="" />
+      <created>1700916432323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700916432323</updated>
+      <workItem from="1700916442543" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

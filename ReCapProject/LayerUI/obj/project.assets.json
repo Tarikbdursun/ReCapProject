@@ -2924,11 +2924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\LayerUI\\LayerUI.csproj",
+      "projectUniqueName": "D:\\GitHub\\ReCapProject\\ReCapProject\\LayerUI\\LayerUI.csproj",
       "projectName": "LayerUI",
-      "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\LayerUI\\LayerUI.csproj",
+      "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\LayerUI\\LayerUI.csproj",
       "packagesPath": "C:\\Users\\Tarık Buğra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\LayerUI\\obj\\",
+      "outputPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\LayerUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tarık Buğra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2945,14 +2945,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Business\\Business.csproj"
+            "D:\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "D:\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Tarık Buğra\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+            "D:\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }
