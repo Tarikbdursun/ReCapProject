@@ -13,6 +13,15 @@ namespace DataAccess.Concrete.EntityFramework
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=CarRental;Trusted_Connection=true");
         }
 
+        
+        /*Custom Mapping (Just an Example)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Car>().ToTable("Products");
+            modelBuilder.Entity<Car>().Property(x => x.ID).HasColumnName("Id");
+        }*/
+        
+
         public DbSet<Car> Products { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Customer> Customers { get; set; }
@@ -20,6 +29,6 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Order> Orders{ get; set; }
         public DbSet<OrderDetail> OrderDetails{ get; set; }
         public DbSet<VehicleType> VehicleType{ get; set; }
-
+        public DbSet<Color> Colors{ get; set; }
     }
 }

@@ -12,3 +12,19 @@ C:\Users\Tarık Buğra\source\repos\ReCapProject\Business\obj\Debug\netstandard2
 C:\Users\Tarık Buğra\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\Tarık Buğra\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Tarık Buğra\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\Business.deps.json
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\Business.dll
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\Business.pdb
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.dll
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.dll
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.pdb
+D:\GitHub\ReCapProject\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb
+D:\GitHub\ReCapProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+D:\GitHub\ReCapProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+D:\GitHub\ReCapProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+D:\GitHub\ReCapProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+D:\GitHub\ReCapProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+D:\GitHub\ReCapProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
+D:\GitHub\ReCapProject\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb

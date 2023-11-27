@@ -1,5 +1,7 @@
-﻿using DataAccess.Abstract;
+﻿using Core.DataAccess.EntityFramework;
+using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,86 +11,29 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfProductDal : IProductDal
+    public class EfProductDal : EfEntityRepositoryBase<Car, CarRentalDbContext>, IProductDal
     {
-        public void Add(Car entity)
+        public List<CarDetailDto> GetCarDetails()
         {
-            using (CarRentalDbContext context = new CarRentalDbContext())
+            using (CarRentalDbContext context= new CarRentalDbContext())
             {
-                //Find the referance
-                var addedEntity = context.Entry(entity);
-                //Add to db
-                addedEntity.State = EntityState.Added;
-                //Save Changes
-                context.SaveChanges();
-            }
-        }
-
-        public void Delete(Car entity)
-        {
-            using (CarRentalDbContext context = new CarRentalDbContext())
-            {
-                //Find the referance
-                var addedEntity = context.Entry(entity);
-                //Add to db
-                addedEntity.State = EntityState.Deleted;
-                //Save Changes
-                context.SaveChanges();
-            }
-        }
-
-        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
-        {
-            using (CarRentalDbContext context = new CarRentalDbContext())
-            {
-                return filter == null
-                    ? context.Set<Car>().ToList()
-                    : context.Set<Car>().Where(filter).ToList();
-
-            }
-        }
-
-        public Car GetByID(int id)
-        {
-            using (CarRentalDbContext context = new CarRentalDbContext())
-            {
-                return context.Set<Car>().SingleOrDefault(x => x.ID == id);
-            }
-        }
-
-        public List<Car> GetCarsByBrandId(int brandId)
-        {
-            using (CarRentalDbContext context = new CarRentalDbContext())
-            {
-                List<Model> models = context.Set<Model>().Where(x => x.BrandId == brandId).ToList();
-
-                return (from car in GetAll()
-                       join model in models on car.ModelId equals model.Id
-                       select car)
-                       .ToList();                
-            }
-        }
-
-        public string GetModelAndBrand(int id)
-        {
-            using (CarRentalDbContext context = new CarRentalDbContext())
-            {
-                var returnedModel = context.Set<Model>().SingleOrDefault(x => x.Id == GetByID(id).ModelId);
-                var returnedBrand = context.Set<Brand>().SingleOrDefault(x => x.Id == returnedModel.BrandId);
-                return $"{returnedModel.Name} , {returnedBrand.Name}";
-            }
-        }
-
-        public void Update(Car entity)
-        {
-            using (CarRentalDbContext context = new CarRentalDbContext())
-            {
-                //Find the referance
-                var addedEntity = context.Entry(entity);
-                //Add to db
-                addedEntity.State = EntityState.Modified;
-                //Save Changes
-                context.SaveChanges();
+                var result = from c in context.Products
+                             join m in context.Models
+                             on c.ModelId equals m.Id
+                             join b in context.Brands
+                             on m.BrandId equals b.Id
+                             join clr in context.Colors
+                             on c.ColorId equals clr.Id
+                             select new CarDetailDto
+                             {
+                                 CarId = c.Id,
+                                 ModelName = m.Name,
+                                 BrandName = b.Name,
+                                 DailyPrice = c.DailyPrice,
+                                 ColorName = clr.ColorName
+                             };
+               
+                return result.ToList();
             }
         }
     }
