@@ -1,9 +1,12 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Business.Concrete
@@ -15,37 +18,49 @@ namespace Business.Concrete
         {
             _iCarDal = iCardal;
         }
-        public List<Car> GetAll()
+        public IDataResult<List<Car>> GetAll()
         {
-            //Business Codes
-
-            return _iCarDal.GetAll();
+            return new SuccessDataResult<List<Car>>(_iCarDal.GetAll());
         }
 
-        public Car GetById(int id)
+        public IDataResult<Car> GetById(int id)
         {
-            return _iCarDal.GetByID(id);
+            if (GetAll().Data.Any(x => x.Id != id))
+                return new ErrorDataResult<Car>();
+
+            return new SuccessDataResult<Car>(_iCarDal.GetByID(id));
         }
 
-        public List<CarDetailDto> GetCarDetails()
+        public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
-            return _iCarDal.GetCarDetails();
+            return new SuccessDataResult<List<CarDetailDto>>(_iCarDal.GetCarDetails());
         }
 
-        public List<Car> GetCarsByColorId(int colorId)
+        public IDataResult<List<Car>> GetCarsByColorId(int colorId)
         {
-            return _iCarDal.GetAll(car=>car.ColorId == colorId);
+            if (GetAll().Data.Any(x => x.ColorId != colorId))
+                return new ErrorDataResult<List<Car>>();
+
+            return new SuccessDataResult<List<Car>>(_iCarDal.GetAll(car => car.ColorId == colorId));
 
         }
 
-        public void AddCar(Car car)
-        {
+        public IResult AddCar(Car car)
+        {           
+            if (_iCarDal.GetAll().Any(x => x.Id == car.Id))
+                return new ErrorResult();
+            
             _iCarDal.Add(car);
+            return new SuccessResult(Messages.ProductAdded);
         }
 
-        public void DeleteCar(Car car)
+        public IResult DeleteCar(Car car)
         {
+            if (!GetAll().Data.Contains(car))
+                return new ErrorResult();
+
             _iCarDal.Delete(car);
+            return new SuccessResult(Messages.ProductDeleted);
         }
     }
 }

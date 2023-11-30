@@ -20,7 +20,7 @@ namespace LayerUI
         }
 
         private static void GetAllCarsDetail(CarManager carManager)
-            => carManager.GetCarDetails().ForEach
+            => carManager.GetCarDetails().Data.ForEach
             (x => Console.WriteLine($"{x.CarId} {x.BrandName} {x.ModelName} {x.ColorName} {x.DailyPrice}"));
         
 
