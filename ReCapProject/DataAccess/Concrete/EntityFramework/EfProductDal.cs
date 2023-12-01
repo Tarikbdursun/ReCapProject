@@ -15,7 +15,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         public List<CarDetailDto> GetCarDetails()
         {
-            using (CarRentalDbContext context= new CarRentalDbContext())
+            using (CarRentalDbContext context = new CarRentalDbContext())
             {
                 var result = from c in context.Products
                              join m in context.Models
@@ -24,17 +24,24 @@ namespace DataAccess.Concrete.EntityFramework
                              on m.BrandId equals b.Id
                              join clr in context.Colors
                              on c.ColorId equals clr.Id
+                             join r in context.Rentals
+                             on c.Id equals r.CarId
+                             into rGruop
+                             from rental
+                             in rGruop.DefaultIfEmpty()
                              select new CarDetailDto
                              {
                                  CarId = c.Id,
                                  ModelName = m.Name,
                                  BrandName = b.Name,
                                  DailyPrice = c.DailyPrice,
-                                 ColorName = clr.ColorName
+                                 ColorName = clr.ColorName,
+                                 IsAvaliableToRenting = rental == null || 
+                                    rental != null && rental.ReturnDate != null
                              };
-               
                 return result.ToList();
-            }
+            };
         }
     }
 }
+

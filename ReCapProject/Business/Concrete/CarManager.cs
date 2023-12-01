@@ -56,7 +56,7 @@ namespace Business.Concrete
 
         public IResult DeleteCar(Car car)
         {
-            if (!GetAll().Data.Contains(car))
+            if (GetAll().Data.All(x=>x.Id!=car.Id))
                 return new ErrorResult();
 
             _iCarDal.Delete(car);

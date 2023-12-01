@@ -30,9 +30,9 @@ namespace Core.DataAccess.EntityFramework
             using (TContext context = new TContext())
             {
                 //Find the referance
-                var addedEntity = context.Entry(entity);
+                var deletedEntity = context.Entry(entity);
                 //Add to db
-                addedEntity.State = EntityState.Deleted;
+                deletedEntity.State = EntityState.Deleted;
                 //Save Changes
                 context.SaveChanges();
             }
