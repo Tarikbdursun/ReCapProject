@@ -25,7 +25,7 @@ namespace Business.Concrete
 
         public IDataResult<Car> GetById(int id)
         {
-            if (GetAll().Data.Any(x => x.Id != id))
+            if (!GetAll().Data.Any(x => x.Id == id))
                 return new ErrorDataResult<Car>();
 
             return new SuccessDataResult<Car>(_iCarDal.GetByID(id));

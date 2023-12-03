@@ -11,6 +11,7 @@ namespace Business.Abstract
     {
         IDataResult<List<Customer>> GetAll();
         IDataResult<List<CustomerDetailDto>> GetAllCustomersDetail();
+        IDataResult<Customer> GetById(int id);
         IResult Add(Customer customer);
         IResult Delete(Customer customer);
     }

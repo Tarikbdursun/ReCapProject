@@ -12,6 +12,9 @@ namespace LayerUI
         static void Main(string[] args)
         {
             CarManager carManager = new CarManager(new EfProductDal());
+            var result = carManager.GetById(1);
+            var rslt = carManager.GetById(2);
+            Console.WriteLine("carModelId: "+result.Data.ModelId+"\n Success: "+result.Success+" Message: "+result.Message);
             //ColorManager colorManager = new ColorManager(new EfColorDal());
             //UserManager userManager = new UserManager(new EfUserDal());
             //CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
@@ -24,19 +27,21 @@ namespace LayerUI
             //));
 
             //S400 id=1
-            RentalManager rentalManager = new RentalManager(new EfRentalDal());
-            rentalManager.GetAll().Data.ForEach(x => Console.WriteLine(x.Id + " " + x.CarId));
-            Rental newRental = new Rental()
-            {
-                Id = rentalManager.GetAll().Data.LastOrDefault().Id + 1,
-                CarId = 1,
-                CustomerId = 1,
-                RentDate = DateTime.Today,
-                ReturnDate = null
-            };
-            
-            rentalManager.Add(newRental);
-            rentalManager.GetAll().Data.ForEach(x => Console.WriteLine(x.Id + " " + x.CarId));
+            //RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            //rentalManager.GetAll().Data.ForEach(x => Console.WriteLine(x.Id + " " + x.CarId));
+            //Rental newRental = new Rental()
+            //{
+            //    Id = rentalManager.GetAll().Data.LastOrDefault().Id + 1,
+            //    CarId = 1,
+            //    CustomerId = 1,
+            //    RentDate = DateTime.Today,
+            //    ReturnDate = null
+            //};
+
+            //rentalManager.Add(newRental);
+            //rentalManager.GetAll().Data.ForEach(x => Console.WriteLine(x.Id + " " + x.CarId));
+
+
         }
 
         private static void GetAllCarsDetail(CarManager carManager)

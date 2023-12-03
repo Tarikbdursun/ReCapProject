@@ -29,7 +29,7 @@ namespace Business.Concrete
 
         public IResult Delete(Brand brand)
         {
-            if (_brandDal.GetAll().All(x => x.Id != brand.Id))
+            if (!_brandDal.GetAll().All(x => x.Id == brand.Id))
                 return new ErrorResult();
 
             _brandDal.Delete(brand);
