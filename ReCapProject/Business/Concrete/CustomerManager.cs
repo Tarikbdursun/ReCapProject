@@ -51,5 +51,11 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Customer>(_customerDal.GetByID(id));
         }
+
+        public IResult Update(Customer customer)
+        {
+            _customerDal.Update(customer);
+            return new SuccessResult();
+        }
     }
 }

@@ -40,5 +40,16 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Brand>>(_brandDal.GetAll());
         }
+
+        public IDataResult<Brand> GetById(int id)
+        {
+            return new SuccessDataResult<Brand>(_brandDal.GetByID(id));
+        }
+
+        public IResult Update(Brand brand)
+        {
+            _brandDal.Update(brand);
+            return new SuccessResult();
+        }
     }
 }

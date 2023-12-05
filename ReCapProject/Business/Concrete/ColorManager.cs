@@ -38,5 +38,11 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Color>(_iColorDal.GetByID(id));
         }
+
+        public IResult Update(Color color)
+        {
+            _iColorDal.Update(color);
+            return new SuccessResult();
+        }
     }
 }

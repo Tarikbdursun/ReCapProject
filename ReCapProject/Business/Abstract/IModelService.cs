@@ -12,5 +12,6 @@ namespace Business.Abstract
         IDataResult<Model> GetById(int id);
         IResult Add(Model model);
         IResult Delete(Model model);
+        IResult Update(Model model);
     }
 }
