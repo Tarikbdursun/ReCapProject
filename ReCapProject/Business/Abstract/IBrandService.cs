@@ -15,3 +15,7 @@ namespace Business.Abstract
         IResult Update(Brand brand);
     }
 }
+
+
+
+

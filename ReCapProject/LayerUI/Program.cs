@@ -3,6 +3,7 @@ using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace LayerUI
@@ -14,6 +15,8 @@ namespace LayerUI
             CarManager carManager = new CarManager(new EfProductDal());
             var result = carManager.GetById(1);
             var rslt = carManager.GetById(2);
+
+
             Console.WriteLine("carModelId: "+result.Data.ModelId+"\n Success: "+result.Success+" Message: "+result.Message);
             //ColorManager colorManager = new ColorManager(new EfColorDal());
             //UserManager userManager = new UserManager(new EfUserDal());
@@ -59,7 +62,8 @@ namespace LayerUI
         private static void AddNewUser(UserManager userManager, User newUser)
         {
             userManager.Add(newUser);
-            userManager.GetAll().Data.ForEach(x => Console.WriteLine($"Name:{x.FirstName} Last Name:{x.LastName}"));
+            userManager.GetAll().Data.ForEach(x => Console.WriteLine
+            ($"Name:{x.FirstName} Last Name:{x.LastName}"));
         }
     }
 }

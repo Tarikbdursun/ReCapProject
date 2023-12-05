@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route("api/[controller]")] 
+    [ApiController] 
     public class BrandsController : ControllerBase
     {
         IBrandService _brandService;
 
         public BrandsController(IBrandService brandService)
         {
-            _brandService = brandService;
+            _brandService = brandService;           
         }
 
         [HttpGet("getall")]
@@ -35,7 +35,7 @@ namespace WebAPI.Controllers
 
             return result.Success ? Ok(result) : BadRequest(result);
         }
-
+        
         [HttpPost("add")]
         public IActionResult Add(Brand brand)
         {
