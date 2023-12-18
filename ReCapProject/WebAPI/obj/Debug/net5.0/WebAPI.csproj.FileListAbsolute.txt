@@ -55,3 +55,9 @@ D:\GitHub\ReCapProject\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.dll
 D:\GitHub\ReCapProject\ReCapProject\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 D:\GitHub\ReCapProject\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 D:\GitHub\ReCapProject\ReCapProject\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

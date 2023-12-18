@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FNUG7lFfsxo44MiDUaXjlAUGOB21FpqEAA8/C8RaE7utChwnc2qkcmrZK/BfoMpnjpOahoxEmR63Nb+Q8DaZWw==",
+  "dgSpecHash": "BqwFO8QXma2Uhjr4WiHmrQlICEc6o7DED9rBeRfEnt3BzuovDCxhVp7pmAHRTQWxFC8dXENlBpWQvWaTH4Fs9Q==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\ReCapProject\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.1.0\\autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Tarık Buğra\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "C:\\Users\\Tarık Buğra\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
