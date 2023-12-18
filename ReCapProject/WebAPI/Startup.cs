@@ -31,33 +31,33 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSingleton<ICarService,CarManager>();
-            //CarManager uses IProductDal on its own CTOR
-            services.AddSingleton<IProductDal,EfProductDal>();
+            //services.AddSingleton<ICarService,CarManager>();
+            ////CarManager uses IProductDal on its own CTOR
+            //services.AddSingleton<IProductDal,EfProductDal>();
 
-            services.AddSingleton<IBrandService, BrandManager>();
-            //BrandManager uses IBrandDal on its own CTOR
-            services.AddSingleton<IBrandDal, EfBrandDal>();
+            //services.AddSingleton<IBrandService, BrandManager>();
+            ////BrandManager uses IBrandDal on its own CTOR
+            //services.AddSingleton<IBrandDal, EfBrandDal>();
 
-            services.AddSingleton<IColorService, ColorManager>();
-            //ColorManager uses IColorDal on its own CTOR
-            services.AddSingleton<IColorDal, EfColorDal>();
+            //services.AddSingleton<IColorService, ColorManager>();
+            ////ColorManager uses IColorDal on its own CTOR
+            //services.AddSingleton<IColorDal, EfColorDal>();
 
-            services.AddSingleton<ICustomerService, CustomerManager>();
-            //CustomerManager uses ICustomerDal on its own CTOR
-            services.AddSingleton<IColorDal, EfColorDal>();
+            //services.AddSingleton<ICustomerService, CustomerManager>();
+            ////CustomerManager uses ICustomerDal on its own CTOR
+            //services.AddSingleton<IColorDal, EfColorDal>();
 
-            services.AddSingleton<IModelService, ModelManager>();
-            //ModelManager uses IModelDal on its own CTOR
-            services.AddSingleton<IModelDal, EfModelDal>();
+            //services.AddSingleton<IModelService, ModelManager>();
+            ////ModelManager uses IModelDal on its own CTOR
+            //services.AddSingleton<IModelDal, EfModelDal>();
 
-            services.AddSingleton<IRentalService, RentalManager>();
-            //RentalManager uses IRentalDal on its own CTOR
-            services.AddSingleton<IRentalDal, EfRentalDal>();
+            //services.AddSingleton<IRentalService, RentalManager>();
+            ////RentalManager uses IRentalDal on its own CTOR
+            //services.AddSingleton<IRentalDal, EfRentalDal>();
 
-            services.AddSingleton<IUserService, UserManager>();
-            //UserManager uses IUserDal on its own CTOR
-            services.AddSingleton<IUserDal, EfUserDal>();
+            //services.AddSingleton<IUserService, UserManager>();
+            ////UserManager uses IUserDal on its own CTOR
+            //services.AddSingleton<IUserDal, EfUserDal>();
 
             services.AddSwaggerGen(c =>
             {
