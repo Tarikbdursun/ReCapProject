@@ -27,7 +27,7 @@ namespace Business.Concrete
             if (_rentalDal.GetAll().Any(x => x.Id == rental.Id))
                 return new ErrorResult();
 
-            if (new CarManager(new EfProductDal()).GetCarDetails()
+            if (new CarManager(new EfProductDal(),new ModelManager(new EfModelDal())).GetCarDetails()
                 .Data.Any(x => x.CarId == rental.CarId && !x.IsAvaliableToRenting))
                 return new ErrorResult("This Car has Rented");
 

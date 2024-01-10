@@ -61,3 +61,6 @@ D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.Dynam
 D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
 D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\GitHub\ReCapProject\ReCapProject\WebAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
